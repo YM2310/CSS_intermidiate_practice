@@ -1,0 +1,33 @@
+.intro{
+    align-items: center;
+    text-align: center;
+    color: red;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+   
+    width: 50%;
+}
+
+#top{
+
+    text-align:center;
+    background-color: rgb(83, 187, 235);
+    padding:1em;
+    border-bottom-style: dotted;
+    border-bottom-width: 30px;
+    border-color: rgb(45, 101, 128)
+
+
+}
+
+#top h1{
+    font-weight: bold;
+    font-size:3em;
+    color: rgb(0, 0, 0)
+}
+#top p{
+    color: rgb(121, 25, 25);
+    font-weight:bold;
+}
