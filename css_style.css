@@ -31,3 +31,37 @@
     color: rgb(121, 25, 25);
     font-weight:bold;
 }
+.navbar{
+
+}
+.navbar li {display: inline;
+
+
+}
+
+.navbar a{
+    display: inline;
+    border: solid 1.5px;
+    line-height: 30px;
+    font-size:30px;
+    padding: 10px;
+}
+
+.navbar a:link{
+ color:  rgb(19, 44, 56);
+ text-decoration: none;
+}
+
+.navbar a:visited{
+    color:  rgb(19, 44, 56)
+}
+.mainbody-container{
+    text-align: center;
+}
+.mainbody{
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    display:inline-block
+
+}
