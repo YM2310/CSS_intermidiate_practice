@@ -9,6 +9,9 @@
    
     width: 50%;
 }
+#body{
+    margin: 0;
+}
 
 #top{
 
@@ -32,6 +35,12 @@
     font-weight:bold;
 }
 .navbar{
+    
+    
+    position: absolute;
+    top:0;
+    left:0;
+    padding-left:5px;
 
 }
 .navbar li {display: inline;
@@ -48,12 +57,16 @@
 }
 
 .navbar a:link{
- color:  rgb(19, 44, 56);
+ color:  rgb(0, 0, 0);
+ background-color: rgb(31, 74, 94);
  text-decoration: none;
 }
 
 .navbar a:visited{
-    color:  rgb(19, 44, 56)
+    color:  rgb(0, 0, 0)
+}
+.navbar a:hover{
+    background-color:rgb(56, 133, 168) ;
 }
 .mainbody-container{
     text-align: center;
@@ -64,4 +77,15 @@
     width: 50%;
     display:inline-block
 
+}
+#signup_container{
+    
+    text-align:center;
+}
+#signup{
+    padding:10px;
+    display: inline-block;
+    width:25%;
+    text-align: center;
+    border:solid 3px;
 }
