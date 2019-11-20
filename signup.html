@@ -17,13 +17,33 @@
     </ul>
 
     <div id="signup_container">
-    <form id="signup">
-        First name:
-        <br>
-        <input type="text" name=firstname>
-        <br>
-        Last name:
-        <br>
-        <input type="text" name="lastname">
-    </div>
+    <form action="/action_page.php" method="GET" id="signup">
+        <fieldset>
+            <legend>Persnoal information</legend>
+            First name:
+            <br>
+            <input type="text" name=firstname>
+            <br>
+            Last name:
+            <br>
+            <input type="text" name="lastname">
+            <br><br>
+            <div id="radio">
+            <input type="radio" name="gender" value="Male">  Male <br>
+            <input type="radio" name="gender" value="Female"> Female <br>
+            <input type="radio" name="gender" value="Other"> Other <br> <br>
+            City:
+            <br>
+            <input list="city">
+                <datalist id="city">
+                    <option value="Tel aviv">
+                    <option value="Haifa">
+                    <option value="Jerusalem">
+                    <option value="Beer Sheva">
+                </datalist>
+                <br>
+            <input type="submit" value="Submit"> 
+            </div>
+    </div>  
+        </fieldset> 
     </form>
